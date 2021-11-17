@@ -13,7 +13,7 @@ public enum EnumSingleton {
         dbConnect=new DbConnect();
     }
 
-    public static Object getInstance(){
+    public static DbConnect getInstance(){
         return INSTANCE.dbConnect;
     }
 
